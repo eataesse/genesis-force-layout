@@ -116,7 +116,7 @@ class Genesis_Force_Layout_Admin {
          *        Administration Menus: http://codex.wordpress.org/Administration_Menus
          *
          */
-        add_submenu_page('genesis', __('Genesis Force Layout','favicon_up'), __('Genesis Force Layout','favicon_up'), 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page'));
+        add_submenu_page('genesis', __('Genesis Force Layout','favicon_up'), __('Force Layout','favicon_up'), 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page'));
         //add_options_page( 'Genesis Force Layout', 'Force Layout', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page'));
     }
     
